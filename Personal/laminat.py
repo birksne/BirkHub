@@ -90,9 +90,10 @@ laminat_width = 24.1
 corner_list_oneway = [74, 33, -17, 119, -18, 4]
 corner_type = ['Corner','Corner','Corner','Opposite wall','Corner','Corner']
 
-corner_list_whole = [74, 33, -17, -92, 218,12,-20, 18, 4]
-corner_type_whole = ['Corner','Corner','Corner','Corner','Opposite wall','Opposite wall','Opposite wall','Opposite wall','Corner']
+corner_list_whole = [74, 33, -17, -92, 218,12,-20, 18, 4, 113, 55]
+corner_type_whole = ['Corner','Corner','Corner','Corner','Opposite wall','Opposite wall','Opposite wall','Opposite wall','Corner', 'Opposite wall', 'Opposite wall']
 
-session = laminat(laminat_width,corner_list_oneway, corner_type, 10)
+
+session = laminat(laminat_width,corner_list_whole, corner_type_whole, 15)
 session.run(True, True)
 
